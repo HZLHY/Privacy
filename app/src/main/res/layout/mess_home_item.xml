@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/messHomeImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="50dp"
+        android:scaleType="centerInside"
+        android:layout_gravity="center_vertical"/>
+    <TextView
+        android:id="@+id/messHomeName"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginStart="30dp"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+</LinearLayout>

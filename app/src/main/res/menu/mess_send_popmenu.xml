@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/messGetClassBtn"
+        android:title="获取分类"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/sendClassBtn"
+        android:title="发送手动分类结果"
+        app:showAsAction="never"
+        />
+</menu>

@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="divider_height">20dp</dimen>
+    <dimen name="sp_10">10</dimen>
+    <dimen name="dp_13">13</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_32">32dp</dimen>
+</resources>

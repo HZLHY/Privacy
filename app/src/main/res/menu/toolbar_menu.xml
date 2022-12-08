@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/scan_message"
+        android:orderInCategory="100"
+        android:title="扫描短信"
+        android:icon="@drawable/community"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/scan_pic"
+        android:orderInCategory="100"
+        android:title="扫描图片"
+        android:icon="@drawable/pic"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/scan_music"
+        android:orderInCategory="100"
+        android:title="扫描音频"
+        android:icon="@drawable/music"
+        app:showAsAction="never"/>
+<!--    <item-->
+<!--        android:id="@+id/send_class"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="发送手动分类结果"-->
+<!--        android:icon="@drawable/community"-->
+<!--        app:showAsAction="never"/>-->
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="100"
+        android:title="设置"
+        android:icon="@drawable/community"
+        app:showAsAction="never"/>
+
+</menu>
